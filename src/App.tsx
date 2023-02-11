@@ -15,7 +15,7 @@ const App: React.FC = () => {
       <h1>Calculateur alimentaire</h1>
       <p>
         Ce site vous permet de calculer votre émission de CO₂ en indiquant votre
-        consommation de viande/poisson.
+        consommation de viande/poisson journalière.
       </p>
       <Counter type="🥩 Viande rouge" count={countVR} setCount={setCountVR} />
       <Counter type="🍗 Viande blanche" count={countVB} setCount={setCountVB} />
